@@ -4,7 +4,7 @@ import os
 app = Flask(__name__)
 
 @app.route("/") 
-def hello():
+def hello(): 
     return "Flask Sample Application is Functional" 
 
 
